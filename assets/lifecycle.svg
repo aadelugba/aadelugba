@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="210" viewBox="0 0 1200 210" role="img">
+  <style>
+  .sans{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, Inter, Helvetica, Arial, sans-serif} .mono{font-family:ui-monospace, SFMono-Regular, Consolas, Menlo, monospace}
+  .up{opacity:0;animation:up .9s cubic-bezier(.2,.7,.2,1) forwards}
+  @keyframes up{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+  .glint{fill:none;stroke-linecap:round;stroke-dasharray:16 400;animation:glint 3.2s linear infinite}
+  @keyframes glint{from{stroke-dashoffset:16}to{stroke-dashoffset:-400}}
+  @media (prefers-reduced-motion: reduce){*{animation:none!important}.up{opacity:1}}
+</style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#061017"/><stop offset=".55" stop-color="#0a1f28"/><stop offset="1" stop-color="#061017"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#35d3ff"/><stop offset="1" stop-color="#70f0b1"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#35d3ff" stroke-opacity=".06"/>
+      <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="40 40" dur="12s" repeatCount="indefinite"/>
+    </pattern>
+    
+  </defs>
+  <rect width="1200" height="210" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="210" rx="22" fill="url(#grid)"/>
+  <rect x=".5" y=".5" width="1199" height="209" rx="21.5" fill="none" stroke="#35d3ff" stroke-opacity=".18"/>
+
+  <text class="mono" x="40" y="44" font-size="13" letter-spacing="3" fill="#35d3ff">HOW I DELIVER  ·  PROTOTYPE → PRODUCTION</text>
+  <path d="M110 100H1090" stroke="#16323c" stroke-width="3"/>
+  <path d="M110 100H1090" stroke="url(#brand)" stroke-width="3" stroke-dasharray="980" stroke-dashoffset="980">
+    <animate attributeName="stroke-dashoffset" values="980;0;0;980" keyTimes="0;0.857;0.964;1" dur="7s" repeatCount="indefinite"/>
+  </path>
+  
+    <circle cx="110" cy="100" r="13" fill="#061017" stroke="#35d3ff" stroke-opacity=".5" stroke-width="2">
+      <animate attributeName="stroke-opacity" values=".5;1;.5;.5" keyTimes="0;0.057;0.229;1" dur="7s" begin="0.00s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="110" cy="100" r="5" fill="#35d3ff">
+      <animate attributeName="r" values="5;9;5;5" keyTimes="0;0.057;0.229;1" dur="7s" begin="0.00s" repeatCount="indefinite"/>
+      <animate attributeName="fill" values="#35d3ff;#70f0b1;#35d3ff;#35d3ff" keyTimes="0;0.057;0.229;1" dur="7s" begin="0.00s" repeatCount="indefinite"/>
+    </circle>
+    <text class="sans" x="110" y="146" text-anchor="middle" font-size="19" font-weight="600" fill="#e8f6fa">Discover</text>
+    <text class="mono" x="110" y="170" text-anchor="middle" font-size="13.5" fill="#9fb7c0">use case and risk</text>
+    <circle cx="306" cy="100" r="13" fill="#061017" stroke="#35d3ff" stroke-opacity=".5" stroke-width="2">
+      <animate attributeName="stroke-opacity" values=".5;1;.5;.5" keyTimes="0;0.057;0.229;1" dur="7s" begin="1.20s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="306" cy="100" r="5" fill="#35d3ff">
+      <animate attributeName="r" values="5;9;5;5" keyTimes="0;0.057;0.229;1" dur="7s" begin="1.20s" repeatCount="indefinite"/>
+      <animate attributeName="fill" values="#35d3ff;#70f0b1;#35d3ff;#35d3ff" keyTimes="0;0.057;0.229;1" dur="7s" begin="1.20s" repeatCount="indefinite"/>
+    </circle>
+    <text class="sans" x="306" y="146" text-anchor="middle" font-size="19" font-weight="600" fill="#e8f6fa">Design</text>
+    <text class="mono" x="306" y="170" text-anchor="middle" font-size="13.5" fill="#9fb7c0">ADR · HLD · LLD</text>
+    <circle cx="502" cy="100" r="13" fill="#061017" stroke="#35d3ff" stroke-opacity=".5" stroke-width="2">
+      <animate attributeName="stroke-opacity" values=".5;1;.5;.5" keyTimes="0;0.057;0.229;1" dur="7s" begin="2.40s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="502" cy="100" r="5" fill="#35d3ff">
+      <animate attributeName="r" values="5;9;5;5" keyTimes="0;0.057;0.229;1" dur="7s" begin="2.40s" repeatCount="indefinite"/>
+      <animate attributeName="fill" values="#35d3ff;#70f0b1;#35d3ff;#35d3ff" keyTimes="0;0.057;0.229;1" dur="7s" begin="2.40s" repeatCount="indefinite"/>
+    </circle>
+    <text class="sans" x="502" y="146" text-anchor="middle" font-size="19" font-weight="600" fill="#e8f6fa">Build</text>
+    <text class="mono" x="502" y="170" text-anchor="middle" font-size="13.5" fill="#9fb7c0">RAG · agents · APIs</text>
+    <circle cx="698" cy="100" r="13" fill="#061017" stroke="#35d3ff" stroke-opacity=".5" stroke-width="2">
+      <animate attributeName="stroke-opacity" values=".5;1;.5;.5" keyTimes="0;0.057;0.229;1" dur="7s" begin="3.60s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="698" cy="100" r="5" fill="#35d3ff">
+      <animate attributeName="r" values="5;9;5;5" keyTimes="0;0.057;0.229;1" dur="7s" begin="3.60s" repeatCount="indefinite"/>
+      <animate attributeName="fill" values="#35d3ff;#70f0b1;#35d3ff;#35d3ff" keyTimes="0;0.057;0.229;1" dur="7s" begin="3.60s" repeatCount="indefinite"/>
+    </circle>
+    <text class="sans" x="698" y="146" text-anchor="middle" font-size="19" font-weight="600" fill="#e8f6fa">Evaluate</text>
+    <text class="mono" x="698" y="170" text-anchor="middle" font-size="13.5" fill="#9fb7c0">accuracy gates</text>
+    <circle cx="894" cy="100" r="13" fill="#061017" stroke="#35d3ff" stroke-opacity=".5" stroke-width="2">
+      <animate attributeName="stroke-opacity" values=".5;1;.5;.5" keyTimes="0;0.057;0.229;1" dur="7s" begin="4.80s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="894" cy="100" r="5" fill="#35d3ff">
+      <animate attributeName="r" values="5;9;5;5" keyTimes="0;0.057;0.229;1" dur="7s" begin="4.80s" repeatCount="indefinite"/>
+      <animate attributeName="fill" values="#35d3ff;#70f0b1;#35d3ff;#35d3ff" keyTimes="0;0.057;0.229;1" dur="7s" begin="4.80s" repeatCount="indefinite"/>
+    </circle>
+    <text class="sans" x="894" y="146" text-anchor="middle" font-size="19" font-weight="600" fill="#e8f6fa">Ship</text>
+    <text class="mono" x="894" y="170" text-anchor="middle" font-size="13.5" fill="#9fb7c0">CI/CD · blue-green</text>
+    <circle cx="1090" cy="100" r="13" fill="#061017" stroke="#35d3ff" stroke-opacity=".5" stroke-width="2">
+      <animate attributeName="stroke-opacity" values=".5;1;.5;.5" keyTimes="0;0.057;0.229;1" dur="7s" begin="6.00s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1090" cy="100" r="5" fill="#35d3ff">
+      <animate attributeName="r" values="5;9;5;5" keyTimes="0;0.057;0.229;1" dur="7s" begin="6.00s" repeatCount="indefinite"/>
+      <animate attributeName="fill" values="#35d3ff;#70f0b1;#35d3ff;#35d3ff" keyTimes="0;0.057;0.229;1" dur="7s" begin="6.00s" repeatCount="indefinite"/>
+    </circle>
+    <text class="sans" x="1090" y="146" text-anchor="middle" font-size="19" font-weight="600" fill="#e8f6fa">Observe</text>
+    <text class="mono" x="1090" y="170" text-anchor="middle" font-size="13.5" fill="#9fb7c0">monitoring · drift</text>
+  <circle r="6" fill="#70f0b1">
+    <animateMotion path="M110 100H1090" keyPoints="0;1;1" keyTimes="0;0.857;1" calcMode="linear" dur="7s" repeatCount="indefinite"/>
+  </circle>
+</svg>

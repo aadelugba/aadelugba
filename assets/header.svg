@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img">
+  <style>
+  .sans{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, Inter, Helvetica, Arial, sans-serif} .mono{font-family:ui-monospace, SFMono-Regular, Consolas, Menlo, monospace}
+  .up{opacity:0;animation:up .9s cubic-bezier(.2,.7,.2,1) forwards}
+  @keyframes up{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+  .glint{fill:none;stroke-linecap:round;stroke-dasharray:16 400;animation:glint 3.2s linear infinite}
+  @keyframes glint{from{stroke-dashoffset:16}to{stroke-dashoffset:-400}}
+  @media (prefers-reduced-motion: reduce){*{animation:none!important}.up{opacity:1}}
+</style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#061017"/><stop offset=".55" stop-color="#0a1f28"/><stop offset="1" stop-color="#061017"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#35d3ff"/><stop offset="1" stop-color="#70f0b1"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#35d3ff" stroke-opacity=".06"/>
+      <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="40 40" dur="12s" repeatCount="indefinite"/>
+    </pattern>
+    <radialGradient id="glow" cx="80%" cy="50%" r="45%">
+      <stop offset="0" stop-color="#35d3ff" stop-opacity=".22"/><stop offset="1" stop-color="#35d3ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0" spreadMethod="reflect">
+      <stop offset="0" stop-color="#e8f6fa"/><stop offset=".45" stop-color="#e8f6fa"/>
+      <stop offset=".7" stop-color="#35d3ff"/><stop offset="1" stop-color="#70f0b1"/>
+      <animateTransform attributeName="gradientTransform" type="translate" values="-1 0;1 0;-1 0" dur="9s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="400" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="400" rx="22" fill="url(#grid)"/>
+  <rect x=".5" y=".5" width="1199" height="399" rx="21.5" fill="none" stroke="#35d3ff" stroke-opacity=".18"/>
+
+  <rect width="1200" height="400" rx="22" fill="url(#glow)"/>
+  <g stroke-width="1.2"><path d="M800 120L915 90" stroke="#35d3ff" stroke-opacity=".16"/><path d="M800 120L915 160" stroke="#35d3ff" stroke-opacity=".16"/><path d="M800 120L915 240" stroke="#35d3ff" stroke-opacity=".16"/><path d="M800 120L915 310" stroke="#35d3ff" stroke-opacity=".16"/><path d="M800 200L915 90" stroke="#35d3ff" stroke-opacity=".16"/><path d="M800 200L915 160" stroke="#35d3ff" stroke-opacity=".16"/><path d="M800 200L915 240" stroke="#35d3ff" stroke-opacity=".16"/><path d="M800 200L915 310" stroke="#35d3ff" stroke-opacity=".16"/><path d="M800 280L915 90" stroke="#35d3ff" stroke-opacity=".16"/><path d="M800 280L915 160" stroke="#35d3ff" stroke-opacity=".16"/><path d="M800 280L915 240" stroke="#35d3ff" stroke-opacity=".16"/><path d="M800 280L915 310" stroke="#35d3ff" stroke-opacity=".16"/><path d="M915 90L1030 130" stroke="#35d3ff" stroke-opacity=".16"/><path d="M915 90L1030 270" stroke="#35d3ff" stroke-opacity=".16"/><path d="M915 160L1030 130" stroke="#35d3ff" stroke-opacity=".16"/><path d="M915 160L1030 270" stroke="#35d3ff" stroke-opacity=".16"/><path d="M915 240L1030 130" stroke="#35d3ff" stroke-opacity=".16"/><path d="M915 240L1030 270" stroke="#35d3ff" stroke-opacity=".16"/><path d="M915 310L1030 130" stroke="#35d3ff" stroke-opacity=".16"/><path d="M915 310L1030 270" stroke="#35d3ff" stroke-opacity=".16"/><path d="M1030 130L1120 200" stroke="#35d3ff" stroke-opacity=".16"/><path d="M1030 270L1120 200" stroke="#35d3ff" stroke-opacity=".16"/></g>
+  <g><path class="glint" d="M800 120L915 90" stroke="#70f0b1" stroke-width="2.2" style="animation-delay:0.00s"/><path class="glint" d="M800 120L915 160" stroke="#35d3ff" stroke-width="2.2" style="animation-delay:0.37s"/><path class="glint" d="M800 120L915 240" stroke="#35d3ff" stroke-width="2.2" style="animation-delay:0.74s"/><path class="glint" d="M800 120L915 310" stroke="#70f0b1" stroke-width="2.2" style="animation-delay:1.11s"/><path class="glint" d="M800 200L915 90" stroke="#35d3ff" stroke-width="2.2" style="animation-delay:1.48s"/><path class="glint" d="M800 200L915 160" stroke="#35d3ff" stroke-width="2.2" style="animation-delay:1.85s"/><path class="glint" d="M800 200L915 240" stroke="#70f0b1" stroke-width="2.2" style="animation-delay:2.22s"/><path class="glint" d="M800 200L915 310" stroke="#35d3ff" stroke-width="2.2" style="animation-delay:2.59s"/><path class="glint" d="M800 280L915 90" stroke="#35d3ff" stroke-width="2.2" style="animation-delay:2.96s"/><path class="glint" d="M800 280L915 160" stroke="#70f0b1" stroke-width="2.2" style="animation-delay:0.13s"/><path class="glint" d="M800 280L915 240" stroke="#35d3ff" stroke-width="2.2" style="animation-delay:0.50s"/><path class="glint" d="M800 280L915 310" stroke="#35d3ff" stroke-width="2.2" style="animation-delay:0.87s"/><path class="glint" d="M915 90L1030 130" stroke="#70f0b1" stroke-width="2.2" style="animation-delay:1.24s"/><path class="glint" d="M915 90L1030 270" stroke="#35d3ff" stroke-width="2.2" style="animation-delay:1.61s"/><path class="glint" d="M915 160L1030 130" stroke="#35d3ff" stroke-width="2.2" style="animation-delay:1.98s"/><path class="glint" d="M915 160L1030 270" stroke="#70f0b1" stroke-width="2.2" style="animation-delay:2.35s"/><path class="glint" d="M915 240L1030 130" stroke="#35d3ff" stroke-width="2.2" style="animation-delay:2.72s"/><path class="glint" d="M915 240L1030 270" stroke="#35d3ff" stroke-width="2.2" style="animation-delay:3.09s"/><path class="glint" d="M915 310L1030 130" stroke="#70f0b1" stroke-width="2.2" style="animation-delay:0.26s"/><path class="glint" d="M915 310L1030 270" stroke="#35d3ff" stroke-width="2.2" style="animation-delay:0.63s"/><path class="glint" d="M1030 130L1120 200" stroke="#35d3ff" stroke-width="2.2" style="animation-delay:1.00s"/><path class="glint" d="M1030 270L1120 200" stroke="#70f0b1" stroke-width="2.2" style="animation-delay:1.37s"/></g>
+  <g>
+    <circle cx="800" cy="120" r="9" fill="none" stroke="#35d3ff" stroke-opacity=".6">
+      <animate attributeName="r" values="9;22" dur="2.8s" begin="0.00s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values=".6;0" dur="2.8s" begin="0.00s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="800" cy="120" r="7" fill="#061017" stroke="#35d3ff" stroke-width="2"/>
+    <circle cx="800" cy="120" r="3" fill="#35d3ff"/>
+    <circle cx="800" cy="200" r="9" fill="none" stroke="#35d3ff" stroke-opacity=".6">
+      <animate attributeName="r" values="9;22" dur="2.8s" begin="0.45s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values=".6;0" dur="2.8s" begin="0.45s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="800" cy="200" r="7" fill="#061017" stroke="#35d3ff" stroke-width="2"/>
+    <circle cx="800" cy="200" r="3" fill="#35d3ff"/>
+    <circle cx="800" cy="280" r="9" fill="none" stroke="#35d3ff" stroke-opacity=".6">
+      <animate attributeName="r" values="9;22" dur="2.8s" begin="0.90s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values=".6;0" dur="2.8s" begin="0.90s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="800" cy="280" r="7" fill="#061017" stroke="#35d3ff" stroke-width="2"/>
+    <circle cx="800" cy="280" r="3" fill="#35d3ff"/>
+    <circle cx="915" cy="90" r="9" fill="none" stroke="#35d3ff" stroke-opacity=".6">
+      <animate attributeName="r" values="9;22" dur="2.8s" begin="1.35s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values=".6;0" dur="2.8s" begin="1.35s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="915" cy="90" r="7" fill="#061017" stroke="#35d3ff" stroke-width="2"/>
+    <circle cx="915" cy="90" r="3" fill="#35d3ff"/>
+    <circle cx="915" cy="160" r="9" fill="none" stroke="#35d3ff" stroke-opacity=".6">
+      <animate attributeName="r" values="9;22" dur="2.8s" begin="1.80s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values=".6;0" dur="2.8s" begin="1.80s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="915" cy="160" r="7" fill="#061017" stroke="#35d3ff" stroke-width="2"/>
+    <circle cx="915" cy="160" r="3" fill="#35d3ff"/>
+    <circle cx="915" cy="240" r="9" fill="none" stroke="#35d3ff" stroke-opacity=".6">
+      <animate attributeName="r" values="9;22" dur="2.8s" begin="2.25s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values=".6;0" dur="2.8s" begin="2.25s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="915" cy="240" r="7" fill="#061017" stroke="#35d3ff" stroke-width="2"/>
+    <circle cx="915" cy="240" r="3" fill="#35d3ff"/>
+    <circle cx="915" cy="310" r="9" fill="none" stroke="#35d3ff" stroke-opacity=".6">
+      <animate attributeName="r" values="9;22" dur="2.8s" begin="2.70s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values=".6;0" dur="2.8s" begin="2.70s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="915" cy="310" r="7" fill="#061017" stroke="#35d3ff" stroke-width="2"/>
+    <circle cx="915" cy="310" r="3" fill="#35d3ff"/>
+    <circle cx="1030" cy="130" r="9" fill="none" stroke="#35d3ff" stroke-opacity=".6">
+      <animate attributeName="r" values="9;22" dur="2.8s" begin="3.15s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values=".6;0" dur="2.8s" begin="3.15s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1030" cy="130" r="7" fill="#061017" stroke="#35d3ff" stroke-width="2"/>
+    <circle cx="1030" cy="130" r="3" fill="#35d3ff"/>
+    <circle cx="1030" cy="270" r="9" fill="none" stroke="#35d3ff" stroke-opacity=".6">
+      <animate attributeName="r" values="9;22" dur="2.8s" begin="3.60s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values=".6;0" dur="2.8s" begin="3.60s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1030" cy="270" r="7" fill="#061017" stroke="#35d3ff" stroke-width="2"/>
+    <circle cx="1030" cy="270" r="3" fill="#35d3ff"/>
+    <circle cx="1120" cy="200" r="9" fill="none" stroke="#70f0b1" stroke-opacity=".6">
+      <animate attributeName="r" values="9;22" dur="2.8s" begin="4.05s" repeatCount="indefinite"/>
+      <animate attributeName="stroke-opacity" values=".6;0" dur="2.8s" begin="4.05s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1120" cy="200" r="7" fill="#061017" stroke="#70f0b1" stroke-width="2"/>
+    <circle cx="1120" cy="200" r="3" fill="#70f0b1"/></g>
+
+  <g class="sans">
+    <text class="mono up" x="72" y="104" font-size="15" letter-spacing="4" fill="#35d3ff" style="animation-delay:.1s">AA / AI SYSTEMS</text>
+    <text class="up" x="70" y="178" font-size="62" font-weight="700" fill="url(#sweep)" style="animation-delay:.25s">Adeoluwa Adelugba</text>
+    <text class="up" x="72" y="224" font-size="22" fill="#9fb7c0" style="animation-delay:.45s">Senior AI Engineer  ·  GenAI  ·  MLOps  ·  Agentic AI</text>
+    <text class="up" x="72" y="266" font-size="17" fill="#c9dde3" style="animation-delay:.6s">I build dependable AI systems that move from prototype to production.</text>
+
+    <g class="up" style="animation-delay:.8s">
+      <rect x="72" y="300" width="318" height="36" rx="18" fill="#70f0b1" fill-opacity=".08" stroke="#70f0b1" stroke-opacity=".45"/>
+      <circle cx="94" cy="318" r="5" fill="#70f0b1">
+        <animate attributeName="opacity" values="1;.25;1" dur="1.6s" repeatCount="indefinite"/>
+      </circle>
+      <text x="108" y="323" font-size="14" fill="#e8f6fa">Open to senior AI engineering roles</text>
+      <rect x="404" y="300" width="214" height="36" rx="18" fill="#35d3ff" fill-opacity=".06" stroke="#35d3ff" stroke-opacity=".35"/>
+      <text x="426" y="323" font-size="14" fill="#e8f6fa">North East England, UK</text>
+    </g>
+  </g>
+</svg>

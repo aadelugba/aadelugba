@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="320" viewBox="0 0 600 320" role="img">
+  <style>
+  .sans{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, Inter, Helvetica, Arial, sans-serif} .mono{font-family:ui-monospace, SFMono-Regular, Consolas, Menlo, monospace}
+  .up{opacity:0;animation:up .9s cubic-bezier(.2,.7,.2,1) forwards}
+  @keyframes up{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+  .glint{fill:none;stroke-linecap:round;stroke-dasharray:16 400;animation:glint 3.2s linear infinite}
+  @keyframes glint{from{stroke-dashoffset:16}to{stroke-dashoffset:-400}}
+  @media (prefers-reduced-motion: reduce){*{animation:none!important}.up{opacity:1}}
+</style>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#061017"/><stop offset=".55" stop-color="#0a1f28"/><stop offset="1" stop-color="#061017"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#35d3ff"/><stop offset="1" stop-color="#70f0b1"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#35d3ff" stroke-opacity=".06"/>
+      <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="40 40" dur="12s" repeatCount="indefinite"/>
+    </pattern>
+    
+  </defs>
+  <rect width="600" height="320" rx="22" fill="url(#bg)"/>
+  <rect width="600" height="320" rx="22" fill="url(#grid)"/>
+  <rect x=".5" y=".5" width="599" height="319" rx="21.5" fill="none" stroke="#35d3ff" stroke-opacity=".18"/>
+
+  <text class="mono up" x="32" y="48" font-size="12" letter-spacing="3" fill="#35d3ff">AGENTIC AI · INSURANCE</text>
+  <text class="sans up" x="32" y="88" font-size="28" font-weight="700" fill="#e8f6fa" style="animation-delay:.15s">Agentic Claims Assessment</text>
+  <g class="sans up" font-size="16.5" fill="#c9dde3" style="animation-delay:.3s">
+    <text x="32" y="126">An orchestrator and specialist agents collect, validate and</text>
+    <text x="32" y="151">structure a claim, with humans in the loop where it matters.</text>
+  </g>
+  <g class="up" style="animation-delay:.45s">
+    <rect x="32" y="186" width="118" height="42" rx="10" fill="#35d3ff" fill-opacity=".07" stroke="#35d3ff" stroke-opacity=".5">
+      <animate attributeName="stroke-opacity" values=".35;.9;.35" dur="4s" begin="0s" repeatCount="indefinite"/>
+    </rect>
+    <text class="mono" x="91" y="212" text-anchor="middle" font-size="13" fill="#e8f6fa">Customer</text>
+    <path d="M153 207H173" stroke="#5f7d88" stroke-width="1.5"/>
+    <circle r="3" fill="#70f0b1">
+      <animateMotion path="M153 207H173" dur="1s" begin="0s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="176" y="186" width="118" height="42" rx="10" fill="#35d3ff" fill-opacity=".07" stroke="#35d3ff" stroke-opacity=".5">
+      <animate attributeName="stroke-opacity" values=".35;.9;.35" dur="4s" begin="1s" repeatCount="indefinite"/>
+    </rect>
+    <text class="mono" x="235" y="212" text-anchor="middle" font-size="13" fill="#e8f6fa">Orchestrator</text>
+    <path d="M297 207H317" stroke="#5f7d88" stroke-width="1.5"/>
+    <circle r="3" fill="#70f0b1">
+      <animateMotion path="M297 207H317" dur="1s" begin="1s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="320" y="186" width="118" height="42" rx="10" fill="#35d3ff" fill-opacity=".07" stroke="#35d3ff" stroke-opacity=".5">
+      <animate attributeName="stroke-opacity" values=".35;.9;.35" dur="4s" begin="2s" repeatCount="indefinite"/>
+    </rect>
+    <text class="mono" x="379" y="212" text-anchor="middle" font-size="13" fill="#e8f6fa">Specialists</text>
+    <path d="M441 207H461" stroke="#5f7d88" stroke-width="1.5"/>
+    <circle r="3" fill="#70f0b1">
+      <animateMotion path="M441 207H461" dur="1s" begin="2s" repeatCount="indefinite"/>
+    </circle>
+    <rect x="464" y="186" width="118" height="42" rx="10" fill="#70f0b1" fill-opacity=".07" stroke="#70f0b1" stroke-opacity=".5">
+      <animate attributeName="stroke-opacity" values=".35;.9;.35" dur="4s" begin="3s" repeatCount="indefinite"/>
+    </rect>
+    <text class="mono" x="523" y="212" text-anchor="middle" font-size="13" fill="#e8f6fa">Human review</text></g>
+  <g class="up" style="animation-delay:.6s"><rect x="32" y="252" width="105" height="28" rx="14" fill="#061017" stroke="#16323c"/>
+    <text class="mono" x="84.5" y="270" text-anchor="middle" font-size="13" fill="#9fb7c0">AI Foundry</text><rect x="145" y="252" width="137" height="28" rx="14" fill="#061017" stroke="#16323c"/>
+    <text class="mono" x="213.5" y="270" text-anchor="middle" font-size="13" fill="#9fb7c0">Copilot Studio</text><rect x="290" y="252" width="58" height="28" rx="14" fill="#061017" stroke="#16323c"/>
+    <text class="mono" x="319" y="270" text-anchor="middle" font-size="13" fill="#9fb7c0">HITL</text><rect x="356" y="252" width="58" height="28" rx="14" fill="#061017" stroke="#16323c"/>
+    <text class="mono" x="385" y="270" text-anchor="middle" font-size="13" fill="#9fb7c0">APIs</text></g>
+</svg>
